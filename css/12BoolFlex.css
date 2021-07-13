@@ -67,7 +67,7 @@
 }
 
 
-/* flexible row */
+/* flexible column */
 .col-xs-grow {
     flex-grow: 1;
 }

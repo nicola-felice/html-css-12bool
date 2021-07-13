@@ -52,7 +52,7 @@
         flex-basis: calc((100% / 12) * 12);
     }
 
-    /* flexible row */
+    /* flexible column */
     .col-md-grow {
         flex-grow: 1;
     }
@@ -167,7 +167,7 @@
     }
 
 
-    /* flexible row */
+    /* flexible column */
     .col-lg-grow {
         flex-grow: 1;
     }
