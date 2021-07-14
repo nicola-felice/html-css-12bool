@@ -70,10 +70,15 @@
 /* flexible column */
 .col-xs-grow {
     flex-grow: 1;
+    flex-basis: 0;
 }
 
 
 /* _____ OFFSET MARGIN _____ */
+
+.col-xs-offset-0 {
+    margin-left: calc((100% / 12) * 0);
+}
 
 .col-xs-offset-1 {
     margin-left: calc((100% / 12) * 1);

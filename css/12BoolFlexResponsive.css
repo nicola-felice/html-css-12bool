@@ -55,12 +55,16 @@
     /* flexible column */
     .col-md-grow {
         flex-grow: 1;
+        flex-basis: 0;
     }
 
 
 
     /* _____ OFFSET MARGIN - MEDIUM SIZE SCREEN _____ */
 
+    .col-md-offset-0 {
+        margin-left: calc((100% / 12) * 0);
+    }
 
     .col-md-offset-1 {
         margin-left: calc((100% / 12) * 1);
@@ -170,12 +174,16 @@
     /* flexible column */
     .col-lg-grow {
         flex-grow: 1;
+        flex-basis: 0;
     }
 
 
 
     /* _____ OFFSET MARGIN - LARGE SIZE SCREEN _____ */
 
+    .col-lg-offset-0 {
+        margin-left: calc((100% / 12) * 0);
+    }
 
     .col-lg-offset-1 {
         margin-left: calc((100% / 12) * 1);
